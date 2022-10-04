@@ -6,3 +6,7 @@ html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
+
+.custom-img {
+  background-image: url('https://images.unsplash.com/photo-1520816761512-09d14f676877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuJTIwb24lMjB0b3AlMjBvZiUyMG1vdW50YWluJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60')
+}

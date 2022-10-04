@@ -14,7 +14,7 @@ export default function Home() {
 
       </Head>
 
-      <Hero />
+      <Hero heading='Captura Fotográfica' message='Capturo momentos en la naturaleza para manternerla viva. ' />
 
     
     </div>
