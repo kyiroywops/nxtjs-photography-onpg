@@ -53,7 +53,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Mobile Menu */}
-                <div className='block sm:hidden z-10'>
+                <div onClick={handleNav} className='block sm:hidden z-10'>
                     {nav ? <AiOutlineClose/> : <AiOutlineMenu size={20} style={{color:`${textColor}`}} />}
                 </div>
                 <div className={nav ? 'sm:hidden absolute top-0 bottom-0 right-0 left-0  justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' 
